@@ -16,5 +16,4 @@ $ sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-p
 $ sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
-
 <img width="691" alt="Circet" src="https://user-images.githubusercontent.com/74914423/184377232-8912b390-cd23-47b6-a430-6482161343bf.png">
