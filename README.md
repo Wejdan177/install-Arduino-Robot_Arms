@@ -28,10 +28,11 @@ Robot Arm
 The robot arm has 5 joints only 4 joints can be fully controlled via ROS and Rviz, the last joint (gripper) has a default motion executed from the Arduino code directly.
 
 Circuit diagram
-circuit
+<img width="691" alt="Circet" src="https://user-images.githubusercontent.com/74914423/184383885-d6a70826-f80a-4ca0-856a-60246ae5afa8.png">
+
 
 Robot initial positions
-positions
+<img width="619" alt="arms" src="https://user-images.githubusercontent.com/74914423/184383929-ca6cf5f3-a0ef-4db6-87f5-f27c6d57fbce.png">
 
 Configuring Arduino with ROS
 Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run $ sudo ./install.sh after unzipping the folder
@@ -152,8 +153,9 @@ This will subscribe to /direction topic and execute motion by using Moveit move 
 We can’t visualize the pick and place actions in gazebo
 
 testing
-Screen Shot 1443-12-21 at 2 38 44 AM
 
-Screen Shot 1443-12-21 at 2 40 47 AM
+<img width="628" alt="test1" src="https://user-images.githubusercontent.com/74914423/184383967-f727d6aa-70d8-4db5-80f4-f1e955ec6beb.png">
 
-Screen Shot 1443-12-21 at 2 40 56 AM
+<img width="624" alt="test2" src="https://user-images.githubusercontent.com/74914423/184384069-77fabd38-fef9-4b87-8d5a-abb7a3e46dda.png">
+
+<img width="632" alt="test3" src="https://user-images.githubusercontent.com/74914423/184384129-82c9c599-e300-4edf-8355-10dcf33b22f4.png">
